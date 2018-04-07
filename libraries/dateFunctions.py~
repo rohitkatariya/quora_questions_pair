@@ -1,0 +1,7 @@
+import datetime
+
+def getDateString(dtformat="%d_%m_%Y"):
+    today = datetime.date.today()
+    return today.strftime(dtformat)
+def getTimeInSec():
+	return time.time()
